@@ -1,0 +1,478 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	/*background-color: red;*/
+
+}
+body{
+	background-color: 	#DCDCDC;
+	
+	
+}
+
+
+
+#full{background-color: #00CED1;
+
+	height: auto;
+	width: 1024px;
+	margin: auto;
+	padding: auto;
+
+}
+#logo{
+	height: 100px;
+	width: 200px;
+	float: left;
+}
+
+#name{
+	text-align: center;
+	text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*......................................navigation............................................*/
+
+
+nav{
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 1024px;
+  /*height: 100px;*/
+}
+nav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/*..............................................................bannre....................................................*/
+#banner{
+	height: 600px;
+	width: 1024;
+	background-color: #00CED1;
+
+}
+
+
+/*...........................................content................................................................*/
+#content{
+
+	float: left;
+	width: 700px;
+	height: 900px;
+	background-color: #00CED1;
+}
+#welcome{
+	text-align: justify;
+	padding: 10px;
+	font-size: 30px
+}
+#he1{
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+#conupcoming{
+	width: 300px;
+	height: 300px;
+	margin: 15px;
+	float: left;
+}
+#conupcomingimg{
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+}
+/*.............................................................sidebar..........................................................*/
+
+#sidebar{
+    float: left;
+	width: 324px;
+	height: 900px;
+	background-color: #00CED1;
+
+}
+.sidebarin{
+	width: 294px;
+	height: 270px;
+	background-color: re;
+	margin: 15px 15px 15px 15px;
+	
+}
+video{
+	width: 294px;
+	height: 270px;
+}
+
+/*.....................................................partner......................................................................*/
+
+#partner{
+
+    float: left;
+	width: 1024px;
+	height: 400px;
+	background-color: #00CED1;
+}
+.partner-all{
+
+	height: 150px;
+	width: 310px;
+	background-color: 	#FFEBCD;
+	margin: 15px;
+	float: left;
+
+}
+.partner-all,img{
+border-radius: 20px;
+}
+#partnerh{
+	text-align: center;
+}
+
+
+/*..........................................................footer...................................................................*/
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+/*....................................join.....................................................*/
+/*........................form style....................*/
+
+#formbody{
+	background: url(a.jpg);
+	background-size: cover;
+}
+.sign_up{
+	border-radius: 5px;
+	background: 		#20B2AA;
+	padding: 20px;
+	width: 420px;
+	margin: auto;
+	color: #fff;
+	font-size: 16px;
+	font-family:Verdana;
+	margin-top: 100px;
+	
+
+}
+.sign_up h1{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.sign_up input, select{
+	padding: 12px 20px;
+	margin: 8px 0px;
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing: border-box;
+	font-size: 18px;
+	background: black;
+	color: white;
+	
+
+
+}
+.sign_up input[type=submit]{
+	width: 100%;
+	border:none;
+	cursor: pointer;
+
+}
+#fname{
+	width: 49%;
+
+}
+#lname{
+	width: 49.5%;
+
+}
+#email{
+	width: 100%;
+
+}
+#password{
+	width: 100%;
+}
+#re_password{
+	width: 100%;
+	height: 100%;
+
+}
+input[type=submit]:hover{
+	background: #45a049;
+	transition: 0.6s
+}
+option{
+	color: white;
+	background: purple;
+}
+
+
+/*.................................................events................................*/
+#content_events{
+	width: 1024px;
+	height: 500px;
+}
+.events_detail{
+	text-align: center;
+	font-size: 30px;
+	color: #8B4513;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>contact<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+#content_contact{
+	width: 1024px;
+	height: 1000px;
+}
+#contact_office{
+	height: 200px;
+	width: 984px;
+	/*background-color: red;*/
+	/*padding: 20px;*/
+	margin: 20px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>group<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+#content_group{
+	width: 1024px;
+	height: 700px;
+}
+.group{
+	height: 600px;
+	width: 300px;
+	background-color: #20B2AA;
+	float: left;
+	margin:20px; 
+}
+.groupp{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>tour<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+#content_tour{
+	width: 1024px;
+	height: 1800px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>club records<<<<<<<<<<<<<<<<<<<<<<<*/
+/*.................table.................*/
+
+#Contain_record{
+	width: 1024px;
+	height: 1000px;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
